@@ -50,10 +50,11 @@ projects[xmlsitemap][version] = "2.2"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[helloworld][destination] = "modules/custom"
 projects[helloworld][download][type] = "git"
-projects[helloworld][type] = "module"
 projects[helloworld][download][url] = "https://github.com/spadgett16/Strateratech_aegir.git"
+projects[helloworld][directory_name] = "custom"
+;projects[helloworld][destination] = "modules/custom/helloworld"
+projects[helloworld][type] = "module"
 
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
